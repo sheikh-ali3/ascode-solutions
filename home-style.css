@@ -20,18 +20,15 @@ nav{
 }
 
 ul{    
-    /* background-color: black; */
     list-style-type: none;
 }
 
 a{
-    /* background-color: black; */
     color: white;
     text-decoration: none;
 }
 
 ul li{
-    /* background-color:black; */
     display: inline;
     margin-right: 10px;
     padding-left: 15px;

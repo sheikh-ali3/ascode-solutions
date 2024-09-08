@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
 body{
@@ -9,10 +8,21 @@ body{
     font-family: 'Arial';
 }
 
+ul{    
+    list-style-type: none;
+}
+
 a{
     color: white;
     text-decoration: none;
 }
+
+ul li{
+    display: inline;
+    margin-right: 10px;
+    padding-left: 15px;
+}
+
 
 nav{
     margin: 10px;
@@ -83,7 +93,6 @@ nav ul li a span{
 
 .contact{
     padding: 20px;    
-    background-image: url(download.jfif);
     margin: 10px;
     border-radius: 10px;
 }
@@ -102,6 +111,7 @@ nav ul li a span{
     text-align: justify;
     justify-content: left;
     margin: 20px;
+    color: white;
     line-height: 30px;
     margin-left: 50px;
 }
