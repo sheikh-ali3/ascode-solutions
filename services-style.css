@@ -158,16 +158,17 @@ nav ul li a span{
     display: block;
     border-radius: 20px;
     margin-right: 70px;
+    background-color: #3f0;
+    margin: 20px;
 }
 
 .item h4{
-    color: #3f0;
+    color: #333;
     font-size: 20px;
     display: inline;
+    margin: 20px;
     padding-right: 300px;
     margin-bottom: 80px;
-    margin-left: 20px;
-    margin-top: 30px;
 }
 
 .item p{
@@ -178,6 +179,14 @@ nav ul li a span{
     color: white;
     line-height: 30px;
     margin-left: 50px;
+}
+
+.item:hover{
+    background-color: #333;
+}
+
+.item:hover h4{
+    color: #3f0;
 }
 
 #footer{
