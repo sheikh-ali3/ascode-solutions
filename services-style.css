@@ -86,16 +86,33 @@ nav ul li a span{
     font-size: 20px;
     margin: 40px;
     margin-right: 100px;
-    padding-right: 400px;
     padding-left: 50px;
     text-align: justify;
 }
 
+.line h2{
+    color: #3f0;
+    font-size: 30px;
+    display: inline;
+    padding-right: 300px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.line p{
+    font-size: 20px;
+    text-align: justify;
+    justify-content: left;
+    margin: 20px;
+    color: white;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
 .img{
     display: block;
-    height: 500px;
-    width: 500px;
     border-radius: 20px;
+    margin-right: 70px;
 }
 
 #footer{
