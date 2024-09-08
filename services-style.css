@@ -71,6 +71,15 @@ nav ul li a span{
     text-decoration: none;
 }
 
+#intro{
+    display: flex;
+    color: white;
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
 .line{
     color: white;
     font-weight: 100;
@@ -80,6 +89,13 @@ nav ul li a span{
     padding-right: 400px;
     padding-left: 50px;
     text-align: justify;
+}
+
+.img{
+    display: block;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
 }
 
 #footer{
