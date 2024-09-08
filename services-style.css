@@ -84,7 +84,7 @@ nav ul li a span{
     color: white;
     font-weight: 100;
     font-size: 20px;
-    margin: 40px;
+    margin: 20px;    
     margin-right: 100px;
     padding-left: 50px;
     text-align: justify;
@@ -97,6 +97,7 @@ nav ul li a span{
     padding-right: 300px;
     margin-bottom: 80px;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .line p{
@@ -115,12 +116,76 @@ nav ul li a span{
     margin-right: 70px;
 }
 
+#list{
+    display: flex;
+    color: white;
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.services-list{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 100px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.services-list h3{
+    color: #3f0;
+    font-size: 30px;
+    display: inline;
+    padding-right: 300px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.services-list p{
+    font-size: 20px;
+    text-align: justify;
+    justify-content: left;
+    margin: 20px;
+    color: white;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+.item{
+    display: block;
+    border-radius: 20px;
+    margin-right: 70px;
+}
+
+.item h4{
+    color: #3f0;
+    font-size: 20px;
+    display: inline;
+    padding-right: 300px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.item p{
+    font-size: 20px;
+    text-align: justify;
+    justify-content: left;
+    margin: 20px;
+    color: white;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
 #footer{
     display: block;
     background-image: url(download.jfif);
     color: white;
     padding: 20px;
-    margin: 20px;
+    margin: 40px;
     border-radius: 20px;
 }
 
